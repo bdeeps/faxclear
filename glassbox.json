@@ -1,0 +1,133 @@
+{
+  "slug": "faxclear",
+  "box": 69,
+  "date": "2026-10-04",
+  "title": "FaxClear",
+  "question": "How does a fax machine work?",
+  "hook": "A fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line. Scan your own drawing, read the real run codes, hear the handshake, and watch line noise smear a page until error correction fixes it.",
+  "thumbText": "HOW A FAX WORKS",
+  "field": "internet",
+  "minutes": 15,
+  "tags": [
+    "fax",
+    "facsimile",
+    "fax machine",
+    "Group 3",
+    "ITU-T T.4",
+    "T.30",
+    "contact image sensor",
+    "scanning",
+    "resolution",
+    "dpi",
+    "bitmap",
+    "halftone",
+    "run-length encoding",
+    "Modified Huffman",
+    "compression",
+    "modem",
+    "handshake",
+    "CNG",
+    "CED",
+    "V.21",
+    "V.29",
+    "V.17",
+    "QAM",
+    "FSK",
+    "thermal printing",
+    "thermal paper",
+    "error correction mode",
+    "T.38",
+    "VoIP",
+    "fax over IP",
+    "STD PCO",
+    "Web Audio",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Three machines in one box",
+      "text": "A fax is a scanner, a modem and a printer sharing one phone line. The page you send slides over a contact image sensor bar; the page you receive comes off a roll of thermal paper under a row of tiny heaters."
+    },
+    {
+      "title": "A page becomes dots",
+      "text": "The scanner reads one thin line at a time: 1,728 dots across 215 mm, about 204 per inch. Each dot is judged black or white against a threshold. Standard mode takes 3.85 lines per mm (204 × 98 dpi), fine mode 7.7 (204 × 196): about 2 million dots for an A4 page."
+    },
+    {
+      "title": "Runs, not dots",
+      "text": "Sending every dot at 9,600 bit/s would take over three minutes. So each line is sent as runs of white and black, and each run length becomes a Modified Huffman code: common runs get codes of 2 to 4 bits, and an all-white line costs 17 bits plus a 12-bit end-of-line. A letter shrinks 10 to 20 times; a halftone photo, all tiny dots, can come out bigger than the raw bits."
+    },
+    {
+      "title": "The fax song",
+      "text": "A phone line carries only sound, about 300–3,400 Hz. The caller beeps at 1,100 Hz, the answerer replies at 2,100 Hz, and they agree on settings at 300 bit/s with two warbling tones. After a training burst, the page pours through as a hiss: 2,400 changes a second, 4 bits each for V.29 at 9,600 bit/s, 6 each for V.17 at 14,400."
+    },
+    {
+      "title": "Printing, and fixing errors",
+      "text": "The receiver decodes the runs and fires 1,728 heaters, one per dot, against paper that turns black at about 100 °C. A flipped bit throws the codes out of step and smears a whole line. Error correction mode sends data in checked 256-byte frames and resends only the bad ones."
+    },
+    {
+      "title": "Fax today",
+      "text": "Over the internet, one lost packet can break the modem sound, so T.38 (1998) sends the fax data in packets with spare copies. Fax survives where a phone number and a delivery report count: clinics, courts, government offices, and in Japan. In 1990s India, STD/PCO booths carried many a business fax."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Contact image sensor",
+      "def": "A page-wide bar of LEDs, lenses and light sensors that reads one line of the page at a time."
+    },
+    {
+      "term": "Scan line",
+      "def": "One thin strip across the page: 1,728 dots in a Group 3 fax."
+    },
+    {
+      "term": "Resolution",
+      "def": "Dots per inch across and down the page: 204 × 98 standard, 204 × 196 fine."
+    },
+    {
+      "term": "Run-length encoding",
+      "def": "Describing a line by how many white and black dots come in a row."
+    },
+    {
+      "term": "Modified Huffman",
+      "def": "The fax code book that gives short codes to common run lengths."
+    },
+    {
+      "term": "Modem",
+      "def": "A modulator-demodulator that turns bits into sound and back."
+    },
+    {
+      "term": "Handshake",
+      "def": "The opening exchange where two fax machines agree on speed and resolution."
+    },
+    {
+      "term": "Thermal paper",
+      "def": "Paper coated with a dye and developer that turn black when heated."
+    },
+    {
+      "term": "Error correction mode",
+      "def": "Sending fax data in checked frames and resending only the damaged ones."
+    },
+    {
+      "term": "T.38",
+      "def": "The standard for sending fax data, rather than fax sound, over the internet."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "faxclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

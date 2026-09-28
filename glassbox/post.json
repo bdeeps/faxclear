@@ -1,0 +1,126 @@
+{
+  "slug": "faxclear",
+  "box": 69,
+  "question": "How does a fax machine work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/faxclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/faxclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "180 years of sending pages down a wire, from swinging pendulums to packets on the internet.\n\n1843: A patent for sending pictures by wire\n1865: The first public fax service\n1906: A photograph by wire\n1924: Wirephoto: 15 photos over the phone network\n1964: Xerox LDX\n1980: Group 3 and T.4: digital fax\n\nThe full story, with 25 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/faxclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/faxclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #fax #facsimile #faxmachine #group3 #itutt4 #t30 #history",
+      "youtube": {
+        "title": "The history of the fax machine in 45 seconds #shorts",
+        "description": "180 years of sending pages down a wire, from swinging pendulums to packets on the internet.\n\n1843 · A patent for sending pictures by wire (Alexander Bain)\n1865 · The first public fax service (Giovanni Caselli and the French telegraph service)\n1906 · A photograph by wire (Arthur Korn)\n1924 · Wirephoto: 15 photos over the phone network (AT&T)\n1964 · Xerox LDX (Xerox)\n1980 · Group 3 and T.4: digital fax (CCITT (now ITU-T))\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/faxclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/faxclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does a fax machine work?\n\nA fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line. Scan your own drawing, read the real run codes, hear the handshake, and watch line noise smear a page until error correction fixes it.\n\n→ A fax machine is a scanner, a printer and a modem sharing one phone line.\n→ The scanner reads one thin line at a time: 1,728 dots, each judged black or white.\n→ Fine mode reads twice as many lines, and photos become patterns of tiny dots.\n→ A fax sends runs, not dots: \"312 white, 4 black\", each turned into a short code.\n→ The fax song is two modems talking: a beep, an answer tone, then a warble at 300 bits a second.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/faxclear (link in bio)\n\nBox No. 069 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #fax #facsimile #faxmachine #group3 #itutt4 #t30 #contactimagesensor #scanning #resolution",
+    "carousel": "Swipe through: How does a fax machine work?\n\nA fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line. Scan your own drawing, read the real run codes, hear the handshake, and watch line noise smear a page until error correction fixes it.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/faxclear (link in bio).\n\nBox No. 069 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #fax #facsimile #faxmachine #group3 #itutt4 #t30",
+    "youtube": {
+      "title": "How does a fax machine work? #shorts",
+      "description": "A fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line. Scan your own drawing, read the real run codes, hear the handshake, and watch line noise smear a page until error correction fixes it.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/faxclear/\n⌘ Source code (MIT): https://github.com/bdeeps/faxclear\n\nBox No. 069 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a fax machine work? (interactive explainer)",
+      "description": "A fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line. Scan your own drawing, read the real run codes, hear the handshake, and watch line noise smear a page until error correction fixes it.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/faxclear/\n⌘ Source code (MIT): https://github.com/bdeeps/faxclear\n\nIn this video:\n• Three machines in one box. A fax is a scanner, a modem and a printer sharing one phone line.\n• A page becomes dots. The scanner reads one thin line at a time: 1,728 dots across 215 mm, about 204 per inch.\n• Runs, not dots. Sending every dot at 9,600 bit/s would take over three minutes.\n• The fax song. A phone line carries only sound, about 300–3,400 Hz.\n• Printing, and fixing errors. The receiver decodes the runs and fires 1,728 heaters, one per dot, against paper that turns black at about 100 °C.\n• Fax today. Over the internet, one lost packet can break the modem sound, so T.38 (1998) sends the fax data in packets with spare copies.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a fax machine work?\n\nA fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/faxclear/",
+    "linkedin": "How does a fax machine work?\n\nA fax turns your page into 2 million dots, squeezes them 10 to 20 times with a clever code book, and sings them down a phone line. Scan your own drawing, read the real run codes, hear the handshake, and watch line noise smear a page until error correction fixes it.\n\n1. Three machines in one box\n2. A page becomes dots\n3. Runs, not dots\n4. The fax song\n5. Printing, and fixing errors\n6. Fax today\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 069 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/faxclear/\nCode: https://github.com/bdeeps/faxclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-28T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-28T04:35:41.250Z"
+}

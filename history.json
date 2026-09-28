@@ -1,0 +1,773 @@
+{
+ "title": "The history of the fax machine",
+ "tagline": "180 years of sending pages down a wire, from swinging pendulums to packets on the internet.",
+ "intro": "Fax is older than the telephone. In 1843 a Scottish clockmaker patented a way to scan a page line by line and redraw it far away, and by 1865 France ran a public fax service. Photos by wire made news pictures travel in the 1920s, and in 1980 the Group 3 standard made fax digital, cheap and everywhere.",
+ "eras": [
+  {
+   "id": "wires",
+   "name": "Pictures down a telegraph wire",
+   "from": 1843,
+   "to": 1900,
+   "color": "#c49bff",
+   "summary": "Inventors use pendulums, drums and chemically treated paper to copy handwriting over telegraph lines. France runs the first public fax service."
+  },
+  {
+   "id": "photos",
+   "name": "Photographs by wire",
+   "from": 1900,
+   "to": 1960,
+   "color": "#ffb547",
+   "summary": "Light-sensitive cells scan photographs. Newspapers and news agencies send pictures across countries and oceans the same day."
+  },
+  {
+   "id": "office",
+   "name": "The office fax",
+   "from": 1960,
+   "to": 1985,
+   "color": "#5ce1a9",
+   "summary": "Fax moves onto ordinary phone lines and office desks. World standards arrive, ending with digital Group 3."
+  },
+  {
+   "id": "boom",
+   "name": "Fax everywhere",
+   "from": 1985,
+   "to": 2000,
+   "color": "#8ef0ff",
+   "summary": "Cheap Japanese machines, faster modems and plain paper put a fax in almost every office, and in India's STD/PCO booths."
+  },
+  {
+   "id": "survive",
+   "name": "Fax in the internet age",
+   "from": 1998,
+   "to": 2026,
+   "color": "#ff7a59",
+   "summary": "Email takes over, but fax rides on over the internet with T.38, and survives in hospitals, courts and government offices."
+  }
+ ],
+ "events": [
+  {
+   "year": 1843,
+   "date": "27 May 1843",
+   "era": "wires",
+   "art": "pendulum",
+   "key": true,
+   "title": "A patent for sending pictures by wire",
+   "who": "Alexander Bain",
+   "where": "London, United Kingdom",
+   "country": "United Kingdom",
+   "text": "Scottish clockmaker Alexander Bain patented a way to copy a pattern over telegraph wires. Two pendulums, kept in step by clocks, swept a probe across metal pins line by line, and the receiver marked paper soaked in chemicals wherever current flowed.",
+   "why": "It already had the two big fax ideas: scan line by line, and keep both ends in step. His machines were never truly synchronised, so the copies were poor.",
+   "box": "scanning",
+   "sources": [
+    18,
+    0,
+    1
+   ]
+  },
+  {
+   "year": 1848,
+   "date": "1848",
+   "era": "wires",
+   "art": "drum",
+   "key": false,
+   "title": "Scanning on a spinning drum",
+   "who": "Frederick Bakewell",
+   "where": "London, United Kingdom",
+   "country": "United Kingdom",
+   "text": "Frederick Bakewell improved on Bain with rotating cylinders at each end, a design later called the image telegraph. He showed it at the Great Exhibition in London in 1851.",
+   "why": "Spinning drums scanned more evenly than swinging pendulums, and drums stayed in fax and wirephoto machines for a century.",
+   "box": "",
+   "sources": [
+    19,
+    1
+   ]
+  },
+  {
+   "year": 1860,
+   "date": "November 1860",
+   "era": "wires",
+   "art": "scroll",
+   "key": false,
+   "title": "A composer's signature crosses 140 km",
+   "who": "Giovanni Caselli",
+   "where": "Paris to Amiens, France",
+   "country": "France",
+   "text": "Italian priest and physicist Giovanni Caselli tested his pantelegraph on a telegraph line from Paris to Amiens, about 140 km. The image sent was the signature of the composer Gioacchino Rossini.",
+   "why": "It proved a picture or handwriting could survive a real long-distance line.",
+   "box": "",
+   "sources": [
+    2,
+    22
+   ]
+  },
+  {
+   "year": 1865,
+   "date": "1865",
+   "era": "wires",
+   "art": "pendulum",
+   "key": true,
+   "title": "The first public fax service",
+   "who": "Giovanni Caselli and the French telegraph service",
+   "where": "Paris and Lyon, France",
+   "country": "France",
+   "text": "The French telegraph service opened a pantelegraph service between Paris and Lyon, extended to Marseille in 1867. Pendulums kept the machines in step, and the receiving paper was soaked in potassium ferricyanide, which darkened where current passed. It mostly carried signatures and handwritten messages.",
+   "why": "Fax was offered to the public, and paid for, more than a decade before the telephone was invented.",
+   "box": "",
+   "sources": [
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "year": 1873,
+   "date": "1873",
+   "era": "wires",
+   "art": "chip",
+   "key": false,
+   "title": "Selenium feels light",
+   "who": "Willoughby Smith",
+   "where": "United Kingdom",
+   "country": "United Kingdom",
+   "text": "While testing undersea cables, engineer Willoughby Smith found that selenium conducts electricity better when light shines on it.",
+   "why": "A material that turns light into an electrical signal made it possible to scan photographs, not just raised or inked patterns.",
+   "box": "",
+   "sources": [
+    23
+   ]
+  },
+  {
+   "year": 1906,
+   "date": "17 October 1906",
+   "era": "photos",
+   "art": "flash",
+   "key": true,
+   "title": "A photograph by wire",
+   "who": "Arthur Korn",
+   "where": "Germany",
+   "country": "Germany",
+   "text": "Physicist Arthur Korn used a selenium cell to scan a photograph and sent a picture of the German Crown Prince over about 1,800 km of wire. His telephotography networks soon linked newspapers in Berlin, Paris and London.",
+   "why": "News photos could now travel faster than trains, and newspapers started to use them.",
+   "box": "",
+   "sources": [
+    4,
+    1
+   ]
+  },
+  {
+   "year": 1913,
+   "date": "1913",
+   "era": "photos",
+   "art": "boxcamera",
+   "key": false,
+   "title": "The Bélinographe goes portable",
+   "who": "Édouard Belin",
+   "where": "Paris, France",
+   "country": "France",
+   "text": "Édouard Belin built a portable picture transmitter that scanned with a photocell and could send over ordinary telephone lines. Reporters could carry it to the story.",
+   "why": "Its principle became the basis of the wirephoto services of the next decades.",
+   "box": "",
+   "sources": [
+    20,
+    3
+   ]
+  },
+  {
+   "year": 1921,
+   "date": "1921",
+   "era": "photos",
+   "art": "earth",
+   "key": false,
+   "title": "News photos cross the Atlantic",
+   "who": "Harry G. Bartholomew and Maynard D. McFarlane",
+   "where": "London and New York",
+   "country": "United Kingdom",
+   "text": "The Bartlane system coded photographs as punched tape and sent them by submarine telegraph cable between London and New York. A picture that took a week by ship took hours.",
+   "why": "Pictures had become data: numbers for shades of grey, the same idea a digital fax uses.",
+   "box": "",
+   "sources": [
+    21,
+    3
+   ]
+  },
+  {
+   "year": 1924,
+   "date": "19 May 1924",
+   "era": "photos",
+   "art": "telephone",
+   "key": true,
+   "title": "Wirephoto: 15 photos over the phone network",
+   "who": "AT&T",
+   "where": "Cleveland to New York, USA",
+   "country": "USA",
+   "text": "AT&T sent 15 photographs by telephone line from Cleveland to New York, good enough for newspapers to print. A commercial service followed in 1925.",
+   "why": "The telephone network, not just the telegraph, now carried pictures, which is what every later office fax used.",
+   "box": "",
+   "sources": [
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "year": 1935,
+   "date": "1 January 1935",
+   "era": "photos",
+   "art": "plane",
+   "key": false,
+   "title": "Associated Press Wirephoto",
+   "who": "Associated Press",
+   "where": "New York, USA",
+   "country": "USA",
+   "text": "The Associated Press opened its Wirephoto network. Its first picture showed a plane crash in the Adirondack Mountains of New York.",
+   "why": "Newspapers everywhere could print a photo of a news event on the same day.",
+   "box": "",
+   "sources": [
+    3
+   ]
+  },
+  {
+   "year": 1955,
+   "date": "1950s",
+   "era": "photos",
+   "art": "fax",
+   "key": false,
+   "title": "Desk-Fax in offices",
+   "who": "Western Union",
+   "where": "USA",
+   "country": "USA",
+   "text": "Western Union placed small Desk-Fax machines in tens of thousands of businesses to send and receive telegrams as pictures. By one history, over 40,000 were in use.",
+   "why": "It was the first time fax machines sat on ordinary office desks.",
+   "box": "",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "year": 1964,
+   "date": "1964",
+   "era": "office",
+   "art": "fax",
+   "key": true,
+   "title": "Xerox LDX",
+   "who": "Xerox",
+   "where": "USA",
+   "country": "USA",
+   "text": "Xerox introduced Long Distance Xerography, often called the first modern commercial fax machine. It rented for about $800 a month and needed special high-speed lines.",
+   "why": "It showed business would pay to send documents instantly, not just photos.",
+   "box": "",
+   "sources": [
+    0,
+    1
+   ]
+  },
+  {
+   "year": 1966,
+   "date": "1966",
+   "era": "office",
+   "art": "telephone",
+   "key": false,
+   "title": "A fax on an ordinary phone line",
+   "who": "Xerox and Magnavox",
+   "where": "USA",
+   "country": "USA",
+   "text": "The Magnafax Telecopier weighed about 21 kg (46 lb) and sent a letter-size page in about six minutes, using a normal phone line and handset.",
+   "why": "Any office with a telephone could now send a document.",
+   "box": "",
+   "sources": [
+    0,
+    1
+   ]
+  },
+  {
+   "year": 1968,
+   "date": "1968",
+   "era": "office",
+   "art": "word",
+   "key": false,
+   "title": "Group 1: the first world standard",
+   "who": "CCITT (now ITU-T)",
+   "where": "Geneva, Switzerland",
+   "country": "Switzerland",
+   "text": "The international telecom standards body agreed Group 1 fax, about six minutes a page. In 1976 Group 2 halved that to about three minutes.",
+   "why": "Machines from different companies could at last talk to each other.",
+   "box": "",
+   "sources": [
+    0,
+    1
+   ]
+  },
+  {
+   "year": 1980,
+   "date": "1980",
+   "era": "office",
+   "art": "digital",
+   "key": true,
+   "title": "Group 3 and T.4: digital fax",
+   "who": "CCITT (now ITU-T)",
+   "where": "Geneva, Switzerland",
+   "country": "Switzerland",
+   "text": "Group 3 made fax digital: 1,728 dots a line, 3.85 or 7.7 lines per mm, Modified Huffman compression and a standard handshake. A page took well under a minute; at 9,600 bit/s, a typical page takes about 10 seconds.",
+   "why": "Nearly every fax machine and fax modem since speaks Group 3. The chapters of this box are its rules.",
+   "box": "squeeze",
+   "sources": [
+    5,
+    0,
+    1
+   ]
+  },
+  {
+   "year": 1985,
+   "date": "1985–1990",
+   "era": "boom",
+   "art": "fax",
+   "key": true,
+   "title": "The fax boom",
+   "who": "Mostly Japanese makers",
+   "where": "Worldwide",
+   "country": "Japan",
+   "text": "Cheap Group 3 machines, nearly all made in Japan, flooded offices. In the United States the number installed grew from about 500,000 in 1985 to about 5 million in 1990. Every new machine made the others more useful.",
+   "why": "By the end of the 1980s a fax number was printed on business cards next to the phone number.",
+   "box": "",
+   "sources": [
+    1,
+    8
+   ]
+  },
+  {
+   "year": 1985,
+   "date": "1985",
+   "era": "boom",
+   "art": "computer",
+   "key": false,
+   "title": "Fax from a computer",
+   "who": "GammaLink",
+   "where": "USA",
+   "country": "USA",
+   "text": "GammaLink is credited with the first fax board for personal computers, so a PC could send and receive faxes without paper.",
+   "why": "Fax began to move inside computers, the first step towards fax servers and fax-to-email.",
+   "box": "",
+   "sources": [
+    8
+   ]
+  },
+  {
+   "year": 1987,
+   "date": "1987",
+   "era": "boom",
+   "art": "printer",
+   "key": false,
+   "title": "Plain-paper fax",
+   "who": "Canon",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "Canon is credited with the first plain-paper fax machine, printing with a laser engine instead of on thermal paper. Plain-paper machines took over in the 1990s.",
+   "why": "Faxes no longer curled up or faded in a drawer.",
+   "box": "printing",
+   "sources": [
+    8,
+    0
+   ]
+  },
+  {
+   "year": 1990,
+   "date": "c. 1987–2000s",
+   "era": "boom",
+   "art": "phone",
+   "key": true,
+   "title": "India's STD/PCO booths",
+   "who": "Indian telecom policy, Sam Pitroda and C-DOT",
+   "where": "India",
+   "country": "India",
+   "text": "From the late 1980s, yellow STD/ISD/PCO booths spread across India, run by local shopkeepers. One count put the booths at over 12 lakh (1.2 million) in the early 2000s. Many also offered fax, so small traders could send order forms and documents without a line of their own. Mobile phones emptied them after about 2008.",
+   "why": "For millions of Indians the neighbourhood booth was their first fax machine, as well as their first long-distance phone.",
+   "box": "today",
+   "sources": [
+    13,
+    12,
+    14,
+    15
+   ]
+  },
+  {
+   "year": 1991,
+   "date": "1991",
+   "era": "boom",
+   "art": "sinewave",
+   "key": false,
+   "title": "V.17: 14,400 bits a second",
+   "who": "ITU-T",
+   "where": "Geneva, Switzerland",
+   "country": "Switzerland",
+   "text": "The V.17 modem standard used trellis-coded modulation to reach 14,400 bit/s on ordinary phone lines, 50% faster than V.29's 9,600.",
+   "why": "It became the everyday top speed of office fax machines.",
+   "box": "sound",
+   "sources": [
+    0,
+    16
+   ]
+  },
+  {
+   "year": 1998,
+   "date": "1998",
+   "era": "survive",
+   "art": "digital",
+   "key": true,
+   "title": "T.38: fax over the internet",
+   "who": "ITU-T",
+   "where": "Geneva, Switzerland",
+   "country": "Switzerland",
+   "text": "ITU-T approved T.38 for real-time fax over IP networks. Gateways turn the fax sound into data and send it in packets with copies of earlier ones, so a lost packet doesn't ruin the page. T.37, for sending fax as email, came the same year.",
+   "why": "It let fax keep working as telephone networks moved onto the internet.",
+   "box": "today",
+   "sources": [
+    6,
+    7,
+    0
+   ]
+  },
+  {
+   "year": 2000,
+   "date": "2000",
+   "era": "survive",
+   "art": "fax",
+   "key": false,
+   "title": "Fax sales peak",
+   "who": "",
+   "where": "Worldwide",
+   "country": "",
+   "text": "By one history, sales of fax machines peaked around 2000. Email and scanned PDFs took over much of the traffic after that.",
+   "why": "The fax began a long decline, but did not disappear.",
+   "box": "",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "year": 2017,
+   "date": "July 2017",
+   "era": "survive",
+   "art": "building",
+   "key": true,
+   "title": "The world's biggest buyer of fax machines",
+   "who": "National Health Service",
+   "where": "England, United Kingdom",
+   "country": "United Kingdom",
+   "text": "England's health service was reported to be the world's largest purchaser of fax machines. In December 2018 the government banned it from buying new ones from January 2019 and set 31 March 2020 as the date to phase them out.",
+   "why": "It showed how long fax lasts in hospitals, where a phone number and a delivery report feel safe.",
+   "box": "",
+   "sources": [
+    0,
+    10
+   ]
+  },
+  {
+   "year": 2021,
+   "date": "2021",
+   "era": "survive",
+   "art": "fax",
+   "key": false,
+   "title": "Japan tries to switch off government fax",
+   "who": "Taro Kono, Japan's administrative reform minister",
+   "where": "Tokyo, Japan",
+   "country": "Japan",
+   "text": "Japan's government asked ministries to stop using fax. It met strong resistance, with ministries raising hundreds of objections about security and practicality.",
+   "why": "Fax still survives in some offices because it is simple, familiar and trusted.",
+   "box": "",
+   "sources": [
+    11,
+    0
+   ]
+  },
+  {
+   "year": 2026,
+   "date": "Today",
+   "era": "survive",
+   "art": "fax",
+   "key": false,
+   "title": "Still ringing",
+   "who": "",
+   "where": "Worldwide",
+   "country": "",
+   "text": "Fax lives on in clinics, courts, pharmacies and government offices, often as T.38 over the internet or as online fax services that turn pages into emails.",
+   "why": "A 180-year-old idea, scan a page line by line and keep both ends in step, is still at work.",
+   "box": "today",
+   "sources": [
+    0,
+    7
+   ]
+  }
+ ],
+ "firsts": [
+  {
+   "label": "Patent for scanning and sending an image",
+   "value": "1843",
+   "who": "Alexander Bain, United Kingdom"
+  },
+  {
+   "label": "Public fax service",
+   "value": "1865",
+   "who": "Pantelegraph, Paris–Lyon, France"
+  },
+  {
+   "label": "Photograph sent by wire over 1,800 km",
+   "value": "1906",
+   "who": "Arthur Korn, Germany"
+  },
+  {
+   "label": "Photos sent over the telephone network",
+   "value": "1924",
+   "who": "AT&T, Cleveland to New York, USA"
+  },
+  {
+   "label": "Modern commercial fax machine",
+   "value": "1964",
+   "who": "Xerox LDX, USA"
+  },
+  {
+   "label": "Digital fax standard (Group 3, T.4)",
+   "value": "1980",
+   "who": "CCITT, Geneva"
+  },
+  {
+   "label": "Fax over IP standard (T.38)",
+   "value": "1998",
+   "who": "ITU-T, Geneva"
+  }
+ ],
+ "people": [
+  {
+   "name": "Alexander Bain",
+   "life": "1810 – 1877",
+   "role": "Clockmaker and inventor",
+   "from": "Scotland",
+   "note": "Patented the first image-scanning telegraph in 1843, using synchronised pendulums."
+  },
+  {
+   "name": "Frederick Bakewell",
+   "life": "1800 – 1869",
+   "role": "Physicist and inventor",
+   "from": "England",
+   "note": "Replaced Bain's pendulums with spinning drums and showed his image telegraph in 1851."
+  },
+  {
+   "name": "Giovanni Caselli",
+   "life": "1815 – 1891",
+   "role": "Priest and physicist",
+   "from": "Italy",
+   "note": "Built the pantelegraph that carried the world's first public fax service, from 1865."
+  },
+  {
+   "name": "Arthur Korn",
+   "life": "1870 – 1945",
+   "role": "Physicist",
+   "from": "Germany",
+   "note": "Used selenium cells to send photographs by wire, and built networks for newspapers."
+  },
+  {
+   "name": "Édouard Belin",
+   "life": "1876 – 1963",
+   "role": "Engineer",
+   "from": "France",
+   "note": "His portable Bélinographe sent photos over telephone lines and inspired later wirephoto services."
+  },
+  {
+   "name": "Sam Pitroda",
+   "life": "born 1942",
+   "role": "Telecom engineer and policy maker",
+   "from": "India",
+   "note": "Led C-DOT and the telecom push that helped STD/PCO booths spread across India."
+  }
+ ],
+ "series": [
+  {
+   "id": "usfax",
+   "title": "Fax machines installed in the United States",
+   "unit": "machines",
+   "log": true,
+   "after": "boom",
+   "caption": "Slow growth for decades, then a tenfold jump in five years once cheap Group 3 machines arrived.",
+   "points": [
+    {
+     "year": 1970,
+     "value": 25000,
+     "label": "About 25,000"
+    },
+    {
+     "year": 1980,
+     "value": 250000,
+     "label": "About 250,000"
+    },
+    {
+     "year": 1985,
+     "value": 500000,
+     "label": "About 500,000"
+    },
+    {
+     "year": 1990,
+     "value": 5000000,
+     "label": "About 5 million"
+    }
+   ]
+  },
+  {
+   "id": "pagetime",
+   "title": "Time to send one page",
+   "unit": "seconds",
+   "log": true,
+   "after": "office",
+   "caption": "From six minutes to about ten seconds, thanks to digital coding, compression and faster modems.",
+   "points": [
+    {
+     "year": 1966,
+     "value": 360,
+     "label": "Magnafax Telecopier: about 6 minutes"
+    },
+    {
+     "year": 1968,
+     "value": 360,
+     "label": "Group 1 standard: about 6 minutes"
+    },
+    {
+     "year": 1976,
+     "value": 180,
+     "label": "Group 2 standard: about 3 minutes"
+    },
+    {
+     "year": 1980,
+     "value": 10,
+     "label": "Group 3 at 9,600 bit/s: about 10 seconds for a typical page"
+    }
+   ]
+  }
+ ],
+ "facts": [
+  "Fax is older than the telephone: France ran a public fax service from 1865, eleven years before Bell's telephone patent.",
+  "A Group 3 fax sees an A4 page as about 2 million black or white dots, and squeezes a typical letter 10 to 20 times.",
+  "The screech of a fax call is a real conversation: two machines agreeing on speed, paper size and resolution before the page is sent.",
+  "Thermal fax paper needs no ink: the dots turn black when a tiny heater warms the coating to about 100 °C.",
+  "In 2017 England's health service was said to be the world's biggest buyer of fax machines."
+ ],
+ "sources": [
+  {
+   "title": "Fax",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fax"
+  },
+  {
+   "title": "Fax Machines",
+   "publisher": "Engineering and Technology History Wiki (IEEE)",
+   "url": "https://ethw.org/Fax_Machines"
+  },
+  {
+   "title": "Pantelegraph",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pantelegraph"
+  },
+  {
+   "title": "Wirephoto",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wirephoto"
+  },
+  {
+   "title": "Arthur Korn",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Arthur_Korn"
+  },
+  {
+   "title": "T.4: Standardization of Group 3 facsimile terminals for document transmission",
+   "publisher": "ITU-T",
+   "url": "https://www.itu.int/rec/T-REC-T.4"
+  },
+  {
+   "title": "T.38: Procedures for real-time Group 3 facsimile communication over IP networks",
+   "publisher": "ITU-T",
+   "url": "https://www.itu.int/rec/T-REC-T.38"
+  },
+  {
+   "title": "T.38",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/T.38"
+  },
+  {
+   "title": "Fax machines (Research Starters)",
+   "publisher": "EBSCO",
+   "url": "https://www.ebsco.com/research-starters/history/fax-machines"
+  },
+  {
+   "title": "Thermal paper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thermal_paper"
+  },
+  {
+   "title": "Health and Social Care Secretary bans fax machines in NHS",
+   "publisher": "GOV.UK",
+   "url": "https://www.gov.uk/government/news/health-and-social-care-secretary-bans-fax-machines-in-nhs"
+  },
+  {
+   "title": "Phasing out faxes faces fierce resistance from Japan's bureaucrats",
+   "publisher": "The Japan Times, 9 August 2021",
+   "url": "https://www.japantimes.co.jp/news/2021/08/09/national/fax-machine-phaseout-pushback/"
+  },
+  {
+   "title": "How the humble PCO booth saved many a job and heartbreak",
+   "publisher": "The Federal",
+   "url": "https://thefederal.com/the-eighth-column/how-the-humble-pco-booth-saved-many-a-job-and-heartbreak"
+  },
+  {
+   "title": "PCO dynamics (Ila Patnaik)",
+   "publisher": "openlib.org",
+   "url": "https://openlib.org/home/ila/MEDIA/2003/stdbooths.html"
+  },
+  {
+   "title": "Public call office",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Public_call_office"
+  },
+  {
+   "title": "Sam Pitroda",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sam_Pitroda"
+  },
+  {
+   "title": "List of ITU-T V-series recommendations",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_ITU-T_V-series_recommendations"
+  },
+  {
+   "title": "Contact image sensor",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Contact_image_sensor"
+  },
+  {
+   "title": "Alexander Bain (inventor)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)"
+  },
+  {
+   "title": "Frederick Bakewell",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Frederick_Bakewell"
+  },
+  {
+   "title": "Édouard Belin",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C3%89douard_Belin"
+  },
+  {
+   "title": "Bartlane cable picture transmission system",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bartlane_cable_picture_transmission_system"
+  },
+  {
+   "title": "Giovanni Caselli",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Giovanni_Caselli"
+  },
+  {
+   "title": "Willoughby Smith",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Willoughby_Smith"
+  }
+ ]
+}
